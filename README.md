@@ -8,12 +8,11 @@ Start battle by entering any calyx in the map, DON'T ATTACK THE ENEMIES, IT WON'
 Some scenes might not loaded properly. If you stuck at loading screen, remove `persistent` file.
 
 # RobinSR
-Original: 
-[https://git.xeondev.com/reversedrooms/RobinSR](https://git.xeondev.com/reversedrooms/RobinSR)
-[https://git.xeondev.com/reversedrooms/JadeSR](https://git.xeondev.com/reversedrooms/JadeSR)
+Original: https://github.com/amizing25/robinsr
+
 
 A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/en-us/)
-![screenshot](https://raw.githubusercontent.com/amizing25/robinsr/main/screenshot.png)
+![changing screenshot]()
 
 ## Installation
 
@@ -34,38 +33,13 @@ rustup default nightly
 #### Building
 
 ```sh
-git clone https://git.xeondev.com/reversedrooms/RobinSR.git
-cd RobinSR
 cargo install --path gameserver
 cargo install --path sdkserver
 ```
-
-### From Pre-built Binaries
-
-Navigate to the [Releases](https://git.xeondev.com/reversedrooms/RobinSR/releases)
-page and download the latest release for your platform.
-
 ## Usage
 
-To begin using the server, you need to run both the SDK server and the game server.
-
-If you installed from source, Rust's installer should have added .cargo/bin to your
-path, so simply run the following:
-
-```sh
-gameserver
-sdkserver
-```
-
-If you installed from pre-built binaries, navigate to the directory where you downloaded
-the binaries and either a) double-click on the following executable names or b)
-run the following in a terminal:
-
-```sh
-./gameserver
-./sdkserver
-```
+To begin using the server, you need to run `run.bat` file (you can check its source before doing so if you're afraid)
 
 ## Connecting
-[Get 2.2 beta client](https://bhrpg-prod.oss-accelerate.aliyuncs.com/client/beta/20240322124944_scfGE0xJXlWtoJ1r/StarRail_2.1.51.zip)
-Replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/mhypbase.dll) file in your game folder, it will redirect game traffic (and also disable in-game censorship)
+[Get 2.3 beta client](https://autopatchos.starrails.com/client/Beta/20240501125700_dUBAjS7YiX9nF7mJ/StarRail_2.2.51.zip)
+~~Replace mhypbase.dll file in your game folder, it will redirect game traffic (and also disable in-game censorship)~~ You will be guided or assume you have a way to proxy already
