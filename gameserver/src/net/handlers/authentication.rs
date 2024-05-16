@@ -13,7 +13,7 @@ pub async fn on_player_get_token_cs_req(
             PlayerGetTokenScRsp {
                 retcode: 0,
                 msg: String::from("OK"),
-                uid: 1337,
+                uid: 9001,
                 ..Default::default()
             },
         )
@@ -32,7 +32,7 @@ pub async fn on_player_login_cs_req(
                 server_timestamp_ms: util::cur_timestamp_ms(),
                 stamina: 240,
                 basic_info: Some(PlayerBasicInfo {
-                    nickname: String::from("xeondev"),
+                    nickname: String::from("Trailblazer"),
                     level: 70,
                     world_level: 6,
                     stamina: 240,
