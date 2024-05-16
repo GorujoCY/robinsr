@@ -1,2 +1,1 @@
-cargo run --bin gameserver
-cargo run --bin sdkserver
+cargo run --bin gameserver; cargo run --bin sdkserver
