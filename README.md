@@ -1,5 +1,4 @@
 # Supported Version: 2.2.51
-Run the game by clicking run.bat file.
 
 Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
 
