@@ -11,7 +11,7 @@ Original: https://github.com/amizing25/robinsr
 
 
 A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/en-us/)
-![changing screenshot]()
+![changing screenshot](image.png)
 
 ## Installation
 
