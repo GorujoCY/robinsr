@@ -1,0 +1,32 @@
+{
+	"CNBETAWin2.2.51": {
+		      "asset_bundle_url": "",
+		      "ex_resource_url": "",
+		      "lua_url": "",
+		      "lua_version": "7050564"
+	},
+	"OSBETAWin2.2.51": {
+		      "asset_bundle_url": "",
+		      "ex_resource_url": "",
+		      "lua_url": "",
+		      "lua_version": "7050564"
+	},
+	"CNBETAWin2.2.52": {
+        	"asset_bundle_url": "",
+        	"ex_resource_url": "",
+        	"lua_url": "",
+        	"lua_version": "7064458"
+        },
+	"CNBETAAndroid2.2.52": {
+        	"asset_bundle_url": "",
+        	"ex_resource_url": "",
+        	"lua_url": "",
+        	"lua_version": "7064458"
+        },
+	"OSBETAWin2.2.52": {
+	      	"asset_bundle_url": "",
+          "ex_resource_url": "",
+          "lua_url": "",
+          "lua_version": "7050564"
+	}
+}
