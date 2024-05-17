@@ -1,4 +1,4 @@
-# Supported Version: 2.2.51, [CNBETA] 2.2.52 [OS SOON]
+# Supported Version: 2.2.51, 2.2.52
 
 Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
 
