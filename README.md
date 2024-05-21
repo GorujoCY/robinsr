@@ -1,4 +1,4 @@
-# Supported Version: 2.2.51, 2.2.52
+# Supported Version: 2.2.51, 2.2.52, 2.2.53
 
 Tool website: [https://freesr-tools.pages.dev](https://freesr-tools.pages.dev)
 
@@ -28,6 +28,16 @@ Rust itself, then run the following command:
 rustup toolchain install nightly
 rustup default nightly
 ```
+Android Installation:
+
+```sh
+pkg upgrade
+pkg install git rust -y
+git clone https://github.com/GorujoCY/robinsr.git
+cd robinsr
+chmod +x run.sh
+./run.sh
+```
 
 #### Building
 
@@ -39,6 +49,13 @@ cargo install --path sdkserver
 
 To begin using the server, you need to run `run.bat` file (you can check its source before doing so if you're afraid)
 
+Android: 
+
+```sh
+cd ~/robinsr
+./run.sh```
+
 ## Connecting
 [Get 2.3 beta client](https://autopatchos.starrails.com/client/Beta/20240501125700_dUBAjS7YiX9nF7mJ/StarRail_2.2.51.zip)
+[Consult with me](https://gorujokun.cy/#contact) for the apk version
 ~~Replace mhypbase.dll file in your game folder, it will redirect game traffic (and also disable in-game censorship)~~ You will be guided or assume you have a way to proxy already
