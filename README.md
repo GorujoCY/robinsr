@@ -53,7 +53,8 @@ Android:
 
 ```sh
 cd ~/robinsr
-./run.sh```
+./run.sh
+```
 
 ## Connecting
 [Get 2.3 beta client](https://autopatchos.starrails.com/client/Beta/20240501125700_dUBAjS7YiX9nF7mJ/StarRail_2.2.51.zip)
