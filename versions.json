@@ -30,13 +30,13 @@
                  "lua_version": "7064458"
 	},
 	"CNBETAWin2.2.53": {
-        	"asset_bundle_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_7120090_469169697c23",
+        	"asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_7128256_5f77b249238a",
         	"ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_7134377_b1f36fb2d9b8",
         	"lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_7120090_469169697c23",
         	"lua_version": "7120090"
         },
 	"OSBETAWin2.2.53": {
-        	"asset_bundle_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_7120090_469169697c23",
+        	"asset_bundle_url": "https://autopatchcn.bhsr.com/asb/BetaLive/output_7128256_5f77b249238a",
         	"ex_resource_url": "https://autopatchcn.bhsr.com/design_data/BetaLive/output_7134377_b1f36fb2d9b8",
         	"lua_url": "https://autopatchcn.bhsr.com/lua/BetaLive/output_7120090_469169697c23",
         	"lua_version": "7120090"
