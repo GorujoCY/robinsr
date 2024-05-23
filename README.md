@@ -66,7 +66,7 @@ For laptops it is very similar to the android guide below, start renaming  `vers
 
 # Android Specific Guides
 
-## Tranferring FreeSR from your directory (assuming Download Folder of your phone)
+## Tranferring FreeSR Data from your directory (assuming Download Folder of your phone)
 ```sh
 termux-setup-storage #grant it files permission
 cd ~/robinsr 
