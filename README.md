@@ -62,8 +62,7 @@ cd ~/robinsr
 [Consult with me](https://gorujokun.cy/#contact) for the apk version
 
 ## Online/Offline for Laptops
-For laptops it is very similar to the android guide below, start renaming  `versions.json` to `versions-online.json` then `versions-offline.json` to `versions.json` then copy it on the `sdkserver` folders and vice versa...
-
+For laptops it is very similar to the android guide below, start renaming  `versions.json` to `versions-online.json` then `versions-offline.json` to `versions.json` and/or vice versa then copy it on the `sdkserver` folders 
 # Android Specific Guides
 
 ## Tranferring FreeSR Data from your directory (assuming Download Folder of your phone)
