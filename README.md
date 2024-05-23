@@ -28,6 +28,9 @@ Rust itself, then run the following command:
 rustup toolchain install nightly
 rustup default nightly
 ```
+## Android Requirements:
+- [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk)
+
 ### Android Installation:
 
 ```sh
