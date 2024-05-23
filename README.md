@@ -28,7 +28,7 @@ Rust itself, then run the following command:
 rustup toolchain install nightly
 rustup default nightly
 ```
-Android Installation:
+### Android Installation:
 
 ```sh
 pkg upgrade
@@ -60,3 +60,39 @@ cd ~/robinsr
 [Get 2.3 beta client](https://autopatchos.starrails.com/client/Beta/20240517111205_PZfNSHVLH509e76v/StarRail_.2.53.zip)
 
 [Consult with me](https://gorujokun.cy/#contact) for the apk version
+
+## Online/Offline for Laptops
+For laptops it is very similar to the android guide below, start renaming  `versions.json` to `versions-online.json` then `versions-offline.json` to `versions.json` and vice versa...
+
+# Android Specific Guides
+
+## Tranferring FreeSR from your directory (assuming Download Folder of your phone)
+```sh
+termux-setup-storage #grant it files permission
+cd ~/robinsr 
+rm -f freesr-data.json
+cd /sdcard/Download #if its not on your download folder then change this to the directory that's in
+mv freesr-data.json ~/robinsr
+cd ~/robinsr
+```
+if `termux-setup-storage` does not work manually grant the permission
+![tutorial](https://cdn.discordapp.com/attachments/1240737048483332147/1241023572135120997/SjNpYzk.mp4?ex=665099c4&is=664f4844&hm=4b34cd0f7611fbf939a2666ca0db713fb4042dbdcb62346a480afeed29a8705f&)
+
+## Online/Offline functionality toggle
+Those are dedicated for areas you cant have Mobile Data or Wi-Fi like airplanes but do them anytime you like you are free after all
+
+### Online to Offline
+```sh
+cd ~/robinsr
+mv versions.json versions-online.json
+mv versions-offline.json versions.json
+cp versions.json sdkserver
+```
+If you want to say apply the hotfix again in case of breakage or something
+### Offline to Online 
+```sh
+cd ~/robinsr
+mv versions.json versions-offline.json
+mv versions-online.json versions.json
+cp versions.json sdkserver
+```
