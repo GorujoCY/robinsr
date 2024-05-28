@@ -78,7 +78,7 @@ mv freesr-data.json ~/robinsr
 cd ~/robinsr
 ```
 if `termux-setup-storage` does not work manually grant the permission
-[tutorial](https://cdn.discordapp.com/attachments/1240737048483332147/1241023572135120997/SjNpYzk.mp4?ex=665099c4&is=664f4844&hm=4b34cd0f7611fbf939a2666ca0db713fb4042dbdcb62346a480afeed29a8705f&)
+[tutorial](will try a more permanent method later)
 
 ## Online/Offline functionality toggle
 Those are dedicated for areas you cant have Mobile Data or Wi-Fi like airplanes but do them anytime you like you are free after all
